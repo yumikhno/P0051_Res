@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mikhno_ua.p0051_res.MCActivity">
+    <item
+        android:id="@+id/btn_black"
+        android:orderInCategory="100"
+        android:title="Black"
+        android:icon="@mipmap/ic_black"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_white"
+        android:orderInCategory="100"
+        android:title="White"
+        android:icon="@mipmap/ic_white"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btn_purple"
+        android:orderInCategory="100"
+        android:title="Purple"
+        android:icon="@mipmap/ic_purple"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_orange"
+        android:orderInCategory="100"
+        android:title="Orange"
+        android:icon="@mipmap/ic_orange"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_lime"
+        android:orderInCategory="100"
+        android:title="Lime"
+        android:icon="@mipmap/ic_lime"
+        app:showAsAction="never" />
+</menu>

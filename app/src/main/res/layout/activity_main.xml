@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/hw1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#1.Shapes"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/hw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#2.EditText"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/hw3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#3.CL"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/hw4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#4.CL2"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/hw5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#5.Chains"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/hw6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H/W#6.MenuColors"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
